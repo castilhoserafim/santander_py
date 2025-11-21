@@ -4,8 +4,6 @@ print(True)
 print(False)
 print("Python")
 
-
-
 """
 int()
 float()

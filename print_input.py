@@ -1,7 +1,12 @@
 nome = input("Informe o seu nome: ")
-idade = input("Informe a sua idade: ")
+time = input("Informe seu time: ")
 
-print(nome, idade)
-print(nome, idade, end="...\n")
-print(nome, idade, sep="&", end="...\n")
-print(nome, idade, sep="&")
+"""
+print(nome, time)
+print(nome, time, end="...\n")
+print(nome, time, sep="&", end="...\n")
+print(nome, time, sep="&")
+"""
+
+#print("Olá", nome + ",", "legal saber que torce para o", time)
+print(f"Olá {nome}, tudo bem? Legal saber que torce para o {time}")
